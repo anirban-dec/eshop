@@ -1,0 +1,1301 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Secular One', sans-serif;
+
+}
+
+button.normal {
+    font-size: 20px;
+    font-weight: 600;
+    /* margin-top: 40px; */
+    padding: 10px 20px;
+    color: white;
+    /* background-color: #8f0001; */
+    background-color: #408cca;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+
+}
+
+button.white {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+    padding: 10px 20px;
+    color: white;
+    /* background-color: #8f0001; */
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.2s;
+
+}
+
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 54px;
+    color: black;
+}
+
+h4 {
+    font-size: 24px;
+    color: black;
+}
+
+h6 {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+}
+
+.logo {
+    width: 8rem;
+    height: 6rem;
+}
+
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: white;
+    box-shadow: 0 5px 15px rgb(200, 162, 228);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+
+
+
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: #1d75bd;
+    transition-duration: .3s;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #153755;
+
+}
+
+
+#mobile {
+    display: none;
+    align-items: center;
+}
+
+#close {
+    display: none;
+}
+
+#hero {
+    background-image: url(https://cdn.wallpaperjam.com/content/images/03/69/0369b8420e189ab80f7ccf59cbbbe6caa5fd38d9.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 2% right 0%;
+    padding: 0px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+}
+
+#hero h1 {
+    color: #153755;
+}
+
+#hero button {
+    background-image: url(https://cdn3.vectorstock.com/i/1000x1000/94/52/blue-waves-pattern-summer-lake-wave-water-flow-vector-21679452.jpg);
+    background-color: transparent;
+    color: white;
+    background-size: cover;
+    border: 0;
+    border-radius: 20px;
+    padding: 14px 20px 14px 20px;
+    font-size: 1.3rem;
+    cursor: pointer;
+
+}
+
+.fe-box img {
+    width: 100%;
+    height: 138px;
+    margin-bottom: 10px;
+    padding: 0 0 0 10px;
+
+}
+
+#feature {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .fe-box {
+    width: 200px;
+    text-align: center;
+    padding: 15px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+
+#feature .fe-box:hover {
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+#feature .fe-box h6 {
+    padding: 9px 8px 11px 5px;
+    line-height: 1;
+    border-radius: 4px;
+    color: white;
+    background-color: #408cca;
+
+}
+
+#product1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 {
+    text-align: center;
+
+}
+
+#product1 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product1 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro img {
+    width: 100%;
+    border-radius: 20px;
+    height: 300px;
+}
+
+
+#product1 .pro .des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .des span {
+    color: #153755;
+    font-size: 18px;
+}
+
+#product1 .pro .des h6 {
+    padding-top: 7px;
+    color: #153755;
+    font-size: 20px;
+}
+
+#product1 .pro .des i {
+    font-size: 16px;
+    color: goldenrod;
+}
+
+#product1 .pro .des h4 {
+    padding-top: 7px;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #153755;
+}
+
+#product1 .pro .cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #6586a1;
+    font-weight: 500;
+    color: white;
+    font-size: 30px;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+}
+
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://c8.alamy.com/comp/2J74B7X/kids-candy-seamless-sugar-sprinkles-pattern-for-fabrics-and-packaging-and-gifts-and-linens-and-wrapping-paper-2J74B7X.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4 {
+    color: black;
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+#banner h2 {
+    color: black;
+    font-size: 50px;
+    padding: 10px 0;
+}
+
+#banner h2 span {
+    color: rgb(252, 65, 65);
+}
+
+#banner button:hover {
+    background-color: #153755;
+
+}
+
+#sm-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(https://fivmagazine.com/wp-content/uploads/2019/07/beitragsbild-foto-shooting-model-commercial-fashion.jpg);
+    width: 650px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#sm-banner h4 {
+    color: white;
+    font-size: 30px;
+}
+
+#sm-banner h2 {
+    color: white;
+    font-size: 40px;
+}
+
+#sm-banner span {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button {
+    background-color: #153755;
+    border: 1px solid #153755;
+}
+
+#sm-banner .banner-box2 {
+    background-image: url(https://t3.ftcdn.net/jpg/01/85/69/16/360_F_185691631_G0HwiWAT4WJGEOAKMC6XaMNUtpKsBDLI.jpg);
+}
+
+#sm-banner .banner-box2 h4 {
+    color: #d82618;
+    font-size: 30px;
+}
+
+#sm-banner .banner-box2 h2 {
+    color: #d82618;
+    font-size: 40px;
+}
+
+#sm-banner .banner-box2 span {
+    color: #d82618;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+#sm-banner .banner-box2 button {
+    color: #d82618;
+    border: 1px solid #d82618;
+}
+
+#sm-banner .banner-box:hover button {
+    background-color: #153755;
+    border: 1px solid #153755;
+}
+
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+
+}
+
+#banner3 .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(https://cdn2.vectorstock.com/i/1000x1000/04/21/happy-diwali-black-and-gold-background-design-vector-27450421.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#banner3 .banner-box2 {
+    background-image: url(https://www.bloomadvisors.com/wp-content/uploads/2020/11/shopping.jpg);
+
+
+}
+
+#banner3 h3 {
+    color: #d37514;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+#banner3 .banner-box2 h3 {
+    color: #153755;
+}
+
+#banner3 .banner-box3 {
+    background-image: url(https://wallpaperaccess.com/full/5092919.jpg);
+}
+
+#banner3 .banner-box3 h3 {
+    color: white;
+}
+
+#banner3 h2 {
+    color: white;
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #000e27;
+    background-position: 20% 30%;
+
+}
+
+#newsletter h4 {
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+
+}
+
+#newsletter p {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(214, 210, 210);
+}
+
+#newsletter span {
+    color: #d37514;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    margin-bottom: 30px;
+}
+
+footer h4 {
+    font-size: 24px;
+    padding-bottom: 20px;
+    color: #408cca;
+}
+
+footer p {
+    font-size: 17px;
+    margin: 0 0 8px 0;
+    color: #153755;
+    cursor: pointer;
+}
+
+footer a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #000e27;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow i {
+    color: #465b52;
+    padding-right: 30px;
+    cursor: pointer;
+    font-size: 37px;
+}
+
+footer .install .row img {
+    width: 164px;
+}
+
+footer .install {
+    margin: 10px 0 15px 0;
+
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: #153755;
+
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
+
+footer .payment {
+    width: 217px;
+}
+
+
+/* Shop Page */
+#page-header {
+    background-image: url(https://img.besthqwallpapers.com/Uploads/25-9-2020/141796/blue-brickwall-4k-blue-bricks-bricks-textures-brick-wall.jpg);
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 14px;
+}
+
+#page-header h2 {
+    color: white;
+}
+
+#page-header p {
+    color: white;
+    font-size: 20px;
+
+
+}
+
+#pagination {
+    text-align: center;
+
+}
+
+#pagination a {
+    text-decoration: none;
+    background-color: #153755;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+#pagination a i {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Single Product Details */
+#pro-details {
+    display: flex;
+    margin-top: 20px;
+}
+
+#pro-details .single-pro-image {
+    width: 40%;
+    margin-right: 50px;
+}
+
+/* #pro-details .single-pro-image #main-image {
+
+    height: 28rem;
+    width: 22rem;
+    margin: 0 0 0 25%;
+
+} */
+
+.small-image-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-image-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#pro-details .single-pro-details {
+    width: 50%;
+    padding: 30px 0 0 0;
+}
+
+#pro-details .single-pro-details h6 {
+    color: #000e27;
+    font-size: 23px;
+}
+
+#pro-details .single-pro-details h4 {
+    padding: 40px 0 20px 0;
+    color: #000e27;
+}
+
+#pro-details .single-pro-details h2 {
+    font-size: 30px;
+    color: #1fad9f;
+
+}
+
+#pro-details .single-pro-details select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    background-color: #153755;
+    color: white;
+    border-radius: 5px;
+}
+
+
+#pro-details .single-pro-details input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #153755;
+
+}
+
+#pro-details .single-pro-details input:focus {
+    outline: none;
+}
+
+#pro-details .single-pro-details span {
+    line-height: 30px;
+    color: #153755;
+}
+
+#pro-details .single-pro-details button {
+    background-color: #153755;
+    color: white;
+}
+
+
+
+
+/* Blog */
+#page-header.blog-header {
+    background-image: url(https://miro.medium.com/max/780/1*C76PXdoMXtysxqiwkS5iow.png);
+}
+
+#blog {
+    padding: 150px 150px 0 150px;
+}
+
+#blog .blog-image h5 {
+    font-size: 70px;
+    color: #1d75bd;
+    text-align: center;
+    position: absolute;
+    top: -63px;
+    right: 70rem;
+    z-index: -10;
+}
+
+#blog .blog-details h4 {
+    color: #153755;
+}
+
+#blog .blog-details p {
+    color: #000e27;
+
+}
+
+
+#blog .blog-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding-bottom: 90px;
+}
+
+#blog .blog-image {
+    width: 50%;
+    margin-right: 40px;
+}
+
+#blog img {
+    width: 50%;
+    height: 300px;
+    /* object-fit: cover; */
+}
+
+#blog .blog-details {
+    width: 50%;
+
+}
+
+#blog .blog-details a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    position: relative;
+    transition: 0.3s;
+
+}
+
+#blog .blog-details a::after {
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    right: -60px;
+
+}
+
+#blog .blog-details a:hover {
+    color: #153755;
+}
+
+#blog .blog-details a:hover::after {
+    background-color: #153755;
+
+}
+
+/* About Page */
+
+#page-header.about-header {
+    background-image: url(https://img.freepik.com/premium-photo/contact-us-hand-man-holding-mobile-smartphone-with-mail-phone-email-chat-icon-cutomer-support-concept-blue-wide-banner_256259-2764.jpg?w=2000);
+}
+
+
+#about-head{
+    display: flex;
+    align-items: center;
+
+}
+
+#about-head img {
+
+    width: 150%;
+    height: auto;
+}
+#about-head div{
+    padding-left: 40px;
+}
+#about-app{
+    text-align: center;
+}
+
+#about-app .video{
+    width: 70%;
+    height: 100%;
+    margin-top: 30px;
+}
+#about-app .video video{
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    margin-left: 28rem;
+}
+
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-details .details{
+    width: 40%;
+}
+
+#contact-details .details span{
+    font-size: 25px;
+    color: #153755;
+
+}
+#contact-details .details h2{
+    font-size: 46px;
+    line-height: 35px;
+    padding: 20px 0;
+    color: #153755;
+}
+#contact-details .details h3{
+    font-size: 20px;
+    padding-bottom: 15px;
+    color: #000e27;
+}
+
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+ #contact-details .details li i{
+    font-size: 14px;
+    padding-right: 22px;
+    color: #153755;
+
+}
+ #contact-details .details li p{
+    margin: 0;
+    font-size: 14px;
+} 
+
+#contact-details .map{
+    width: 55%;
+    height: 400px;
+}
+#contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+/* Form  */
+#form-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid #cce7d0;
+}
+#form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+#form-details form span{
+    font-size: 26px;
+}
+
+
+#form-details form h2{
+ font-size: 46px;
+ line-height: 35px;
+ padding: 20px 0;   
+}
+#form-details form input{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #cce7d0;
+}
+
+#form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #cce7d0;
+}
+#form-details form button{
+    background-color: #1d75bd;
+    color: antiquewhite;
+    border-radius: 4px;
+}
+
+#form-details .people div{
+    padding-bottom: 25px;
+    display: flex;
+    align-items: flex-start;
+}
+#form-details .people div img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+#form-details .people div p{
+    margin: 0;
+    font-size: 20px;
+    list-style: 25px;
+}
+#form-details .people div span{
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    color: #153755;
+}
+
+
+
+
+@media (max-width:1024px) {
+    .section-p1 {
+        padding: 40px 30px;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: flex-start;
+        position: fixed;
+        top: -360px;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        box-shadow: 0 40px 60px rgba(194, 7, 7, 0.1);
+        background-color: white;
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #navbar li a {
+        font-size: 20px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i {
+        color: #000e27;
+        font-size: 24px;
+        padding-left: 20px;
+        cursor: pointer;
+    }
+
+    #close {
+        position: fixed;
+        top: 10px;
+        display: initial;
+        font-size: 20px;
+    }
+
+    #lg-bag {
+        display: none;
+    }
+
+    #hero {
+
+        height: 70vh;
+
+        padding: 0px 80px;
+
+        background-position: top 30% right 30%;
+
+    }
+
+    #feature {
+
+        justify-content: center;
+
+    }
+
+    #feature .fe-box {
+
+        margin: 15px 15px;
+
+    }
+
+    #product1 .pro-container {
+
+        justify-content: center;
+
+    }
+
+    #product1 .pro {
+
+        margin: 15px;
+
+    }
+
+    #product1 .pro img {
+        width: 94%;
+        border-radius: 20px;
+        height: 187px;
+    }
+
+    #banner {
+
+        height: 20vh;
+
+    }
+
+    #sm-banner .banner-box {
+        height: 50vh;
+        min-width: 100%;
+
+    }
+
+    #banner3 {
+
+        padding: 0px 40px;
+    }
+
+    #banner3 .banner-box {
+
+        width: 30%;
+
+    }
+
+    #newsletter .form {
+
+        width: 72%;
+    }
+
+    footer h4 {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 26px;
+
+
+    }
+
+    #blog img {
+        width: 100%;
+        height: 300px;
+        /* object-fit: cover; */
+    }
+
+    #page-header.about-header {
+         height: auto;
+    }
+    #about-head img {
+        width: 305%;
+      
+    }
+    #about-app .video video {
+        width: 74%;
+        
+        margin-left: 12rem;
+    }
+
+    #form-details {
+        
+        display: block;
+        margin: 30px;
+        padding: 24px;
+        border: 1px solid #cce7d0;
+        margin-top: 59px;
+    }
+    button.white {
+        
+        margin-bottom: 27px;
+    }
+    #form-details form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+}
+
+@media (max-width:477px) {
+    .section-p1 {
+        padding: 20px;
+    }
+
+    #header {
+        padding: 10px 30px;
+    }
+
+    #navbar {
+        top: -200px;
+        right: -300px;
+        height: 100vh;
+
+    }
+
+    #hero {
+        padding: 0 20px;
+        background-position: 55%;
+    }
+
+    h2 {
+        font-size: 21px;
+
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    #feature .fe-box {
+        width: 130px;
+        margin: 0 22px 15px 7px;
+
+    }
+
+    #sm-banner .banner-box {
+        height: 61vh;
+        width: 72%;
+        padding: 2px;
+        margin: 33px 0;
+    }
+
+    #banner {
+        height: 43vh;
+    }
+
+    #banner3 .banner-box {
+        width: 100%;
+    }
+
+    #newsletter h4 {
+        font-size: 21px;
+    }
+
+    #newsletter p {
+        font-size: 16px;
+    }
+
+    #newsletter input {
+        width: auto;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+    /* single product */
+    #pro-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #pro-details .single-pro-image {
+        width: 100%;
+
+    }
+
+
+
+    #pro-details .single-pro-details {
+        width: 100%;
+        padding: 30px 0 0 0;
+        text-align: center;
+    }
+
+    #pro-details .single-pro-details select {
+        font-size: 18px;
+        margin: 20px 0 36px 30%;
+    }
+
+    #pro-details .single-pro-details button {
+        font-size: 16px;
+    }
+
+    #pro-details .single-pro-details input {
+        width: 49px;
+        height: 48px;
+
+        font-size: 20px;
+
+        color: #153755;
+    }
+
+    #blog .blog-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #blog {
+        padding: 100px 20px 0 20px;
+    }
+
+    #blog .blog-image {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    #blog .blog-details {
+        width: 100%;
+    }
+    #page-header.about-header {
+        height: 122px;
+    }
+    #about-app .video video {
+        width: 103%;
+        margin-left: 3rem;
+    }
+    #about-head {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #about-head img {
+        width: 100%;
+        margin-top: 42px;
+    }
+    #about-head h2 {
+        font-size: 43px;
+    }
+    #form-details form {
+        width: 100%;
+        margin: 10px;
+        flex-wrap: wrap;
+        padding: 30px 10px;
+    }
+    #contact-details .details {
+        width: 100%;
+    }
+    #contact-details {
+        display: block;
+    }
+    #contact-details .map {
+        width: 100%;
+        height: 400px;
+    }
+    #form-details .people div p {
+        margin: 0;
+        font-size: 10px;
+        list-style: 25px;
+        
+    }
+    #form-details {
+        display: block;
+        /* margin: 30px; */
+        padding: 2px;
+        border: 1px solid #cce7d0;
+        margin-top: 59px;
+    }
+}
